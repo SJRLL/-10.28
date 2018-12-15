@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BE8E1809-52BD-4163-8DFA-6FFC38868150}</ProjectGuid>
-    <RootNamespace>通讯录</RootNamespace>
+    <ProjectGuid>{4E44790B-8B91-4A43-B6CF-AF83B2223C15}</ProjectGuid>
+    <RootNamespace>实现单链表</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,11 +64,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Contact.c" />
     <ClCompile Include="test.c" />
+    <ClCompile Include="单链表.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Contact.h" />
+    <ClInclude Include="单链表.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
